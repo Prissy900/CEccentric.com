@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project Website Design</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+     <section class="sub-header">
+
+
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                      
+                  </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+       <h1>Watch & Read Stories From The CodeEccentric Community.</h1>
+     </section>
+    </section>
+    <!---testimonials-->
+    <section class="testimonials">
+       <h1>What Our Students Say</h1>
+       
+       <div class="row">
+           <div class="testimonials-col">
+               <img src="images/user1.jpg">
+               <div>
+                   <p>Many students need computer science to prepare for success later on in the curriculum.
+                    Archaeologists write programs to piece together fragments of ancient ruins.
+                     Economists apply deep learning models to financial data. Linguists write programs
+                      to study statistical properties of literary works
+                   . Physicists study computational models of the universe to analyze its origins.
+                   </p>
+                   <h3>Prissy Karl</h3>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+
+               </div>
+           </div>
+               <div class="testimonials-col">
+                   <img src="images/user2.jpg">
+                   <div>
+                       <p>Programming is an intellectually satisfying experience, and certainly useful, 
+                        but computer science is about much more than just programming. 
+                        The understanding of what we can and cannot do with computation is arguably the most
+                         important intellectual achievement of the past century, and it has led directly to the development 
+                         of the computational infrastructure that surrounds us.
+                         The theory and the practice are interrelated in fascinating ways.
+                       </p>
+                       <h3>Kiki Feind</h3>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   </div>
+       </div>
+
+    </section>
+     <!---blog content-->
+     <section class="row">
+         <div class="blog-left">
+             <img src="images/banner2.jpg" alt="">
+             
+             
+                             <div class="comment-box">
+                                 <h3>Leave A Comment</h3>
+                                 <form class="comment-form">
+                                     <input type="text" placeholder="Enter Name">
+                                     <input type="email" placeholder="Enter Email">
+                                     <textarea  rows="5" placeholder="Your Comment"></textarea>
+                                     <button type="submit" class="hero-btn red-btn">POST COMMENT
+
+                                     </button>
+
+                                 </form>
+                             </div>
+         </div>
+         <div class="blog-right">
+             <h3>Course Categories</h3>
+             <div>
+                 <span>Web Developer</span>
+                 <span>21</span>
+
+             </div>
+             <div>
+                <span>Data scientist</span>
+                <span>228</span> 
+             </div>
+             <div>
+                <span>Marchine Learning</span>
+                <span>49</span>
+
+            </div>
+            <div>
+                <span>Computer Scientist</span>
+                <span>67</span>
+
+            </div>
+            <div>
+                <span>Web Designer</span>
+                <span>41</span>
+
+            </div>
+         </div>
+
+     </section>
+
+
+
+
+       <!-----footer-->
+       <section class="footer">
+           <h4>ABOUT US</h4>
+           <p>Code Eccentric provides online Coding Education for You.<br>.CodeEccentric © 2022 All rights reserved.<br>
+            Made with ❤️in NYC © 2022 CodeEccentric .</p>
+                 <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                 </div>
+
+       </section>
+
+
+
+
+
+    <!-----javascript for toogle menu----->
+     <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right ="0";
+         }
+         function hideMenu(){
+             navLinks.style.right ="-200px";
+         }
+     </script> 
+
+</body>
+</html>

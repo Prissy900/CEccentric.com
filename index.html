@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project Website Design</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+     <section class="header">
+
+
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                      <li><a href="about.html.html">ABOUT</a></li>
+                      <li><a href="course.html.html">COURSE</a></li>
+                      <li><a href="blog.html.html">BLOG</a></li>
+                      <li><a href="contact.html.html">CONTACT</a></li>
+                      
+                  </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+        <h1>Code Eccentric</h1>
+        <p>Every student in every school should have the opportunity to learn computer science<br>
+            CodeSchool is an online programming learning centre that teaches willing 
+            individuals how to code and use the computer to its full potential.
+        </p></div>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+     </section>
+
+     <!----- Course ----->
+     <section class="course">
+        <h2>Courses We Offer</h2>
+        
+
+      <div class="row">
+          <div class="course-col">
+              <h3>Subjects</h3>
+              <p>Web Development <br>Data Science<br> Computer Science<br> Developer Tools<br> Machine Learning<br> 
+                Code Foundations<br> Web Design
+                </p></div>
+                <div class="course-col">
+                   <h3>Languages</h3>
+                   <p>HTML & CSS------C++<br>Python------R<br>JavaScript------C#<br>
+                    Java------PHP<br>SQL-----Go<br>Bash/Shell--------Swift<br>Ruby------Kotlin
+                     </p></div>
+                    
+
+               
+      </div>
+
+    </section>
+     <!------Other Options----->
+     <section class="campus">
+          <h1> Other Options Available For You</h1>
+          <p>We're here to help you advance your career.</p>
+          <div class="row">
+              <div class="campus-col">
+              <img src="images/safar-safarov-koOdUvfGr4c-unsplash--1-.jpg">
+              <div class="layer">
+                  <h3>Computer Science Essentials For Software Development </h3>
+              </div>
+              </div>
+              <div class="campus-col">
+                <img src="images/python-programming-language-programing-workflow-abstract-algorithm-concept-virtual-screen-200850656.jpg">
+                <div class="layer">
+                    <h3>Scripting With Python</h3>
+                </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/6566acdf9b62a091872d8ebdd6e1f463.jpg">
+                    <div class="layer">
+                        <h3>Advanced Programming In C++ </h3>
+                    </div>
+                    </div>
+          </div>
+
+
+
+
+     </section>
+
+
+     <!---testimonials-->
+     <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Many students need computer science to prepare for success later on in the curriculum.
+                         Archaeologists write programs to piece together fragments of ancient ruins.
+                          Economists apply deep learning models to financial data. Linguists write programs
+                           to study statistical properties of literary works
+                        . Physicists study computational models of the universe to analyze its origins.
+                    </p>
+                    <h3>Prissy Karl</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+            </div>
+                <div class="testimonials-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>Programming is an intellectually satisfying experience, and certainly useful, 
+                            but computer science is about much more than just programming. 
+                            The understanding of what we can and cannot do with computation is arguably the most
+                             important intellectual achievement of the past century, and it has led directly to the development 
+                             of the computational infrastructure that surrounds us.
+                             The theory and the practice are interrelated in fascinating ways.
+                        </p>
+                        <h3>Kiki Feind</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    </div>
+        </div>
+
+     </section>
+
+     <!-----call to action-->
+     <section class="cta">
+         <h1>Enroll For Our Various Online  Programming Courses
+             <br>Anywhere From The World
+         </h1>
+         <a href="" class="hero-btn"> CONTACT US</a>
+
+     </section>
+
+
+       <!-----footer-->
+       <section class="footer">
+           <h4>ABOUT US</h4>
+           <p>Code Eccentric provides online Coding Education for You.<br>.CodeEccentric © 2022 All rights reserved.<br>
+            Made with ❤️in NYC © 2022 CodeEccentric .</p>
+                 <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                 </div>
+
+       </section>
+
+
+
+
+
+    <!-----javascript for toogle menu----->
+     <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right ="0";
+         }
+         function hideMenu(){
+             navLinks.style.right ="-200px";
+         }
+     </script> 
+
+</body>
+</html>
